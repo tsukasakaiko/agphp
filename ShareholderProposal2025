@@ -15,6 +15,7 @@
 </p>
 <div class="files">
 <table>
+<tr><td style="white-space: nowrap; vertical-align: top;">2025/06/05　</td><td><a href="https://www.agpgroup.co.jp/wp-content/uploads/2025/06/Notice_of_Convocation_20250605.pdf" target="_blank" style="color: #0000ff;">第60回定時株主総会のご案内</a></td></tr>
 <tr><td style="white-space: nowrap; vertical-align: top;">2025/06/04　</td><td><a href="https://www.agpgroup.co.jp/wp-content/uploads/2025/06/Regarding_sending_a-_Request_for_InterviewtoJAL_20250604.pdf" target="_blank" style="color: #0000ff;">JAL代表取締役社長への面談要請について</a></td></tr>
 <tr><td style="white-space: nowrap; vertical-align: top;">2025/05/28　</td><td><a href="https://www.agpgroup.co.jp/wp-content/uploads/2025/05/statement_and_requests_to_jal_20250528.pdf" target="_blank" style="color: #0000ff;">JAL代表取締役社長宛へ株主提案に対する反対意見の正式表明および再考要請の通達について</a></td></tr>
 <tr><td style="white-space: nowrap; vertical-align: top;">2025/05/27　</td><td><a href="https://www.agpgroup.co.jp/wp-content/uploads/2025/05/committee_recommendation_summary_20250527.pdf" target="_blank" style="color: #0000ff;">日本航空株式会社からの株主提案に対する特別委員会による答申書の要約版のお知らせ</a></td></tr>
@@ -40,11 +41,14 @@
 <a href="https://www.agpgroup.co.jp/shareholder-proposal-2025/faq" style="color: #0000ff;" target="_blank">▶株主提案に関するFAQページへ</a>
 </div>
   </div>
+
+
   <!------------------------------------------------------------------------------------------ IR情報一覧------------------------------------------------------------------------------------------------------->
     <div class="dd_item recruit-content-item">
       <p class="title">1.本件に関連するIR情報 (新着順)<br></p>
 <div class="files">
 <table>
+<tr><td style="white-space: nowrap; vertical-align: top;">2025/06/05　</td><td><a href="https://www.agpgroup.co.jp/ir_news/%e7%ac%ac60%e5%9b%9e%e5%ae%9a%e6%99%82%e6%a0%aa%e4%b8%bb%e7%b7%8f%e4%bc%9a%e3%81%ae%e3%81%94%e6%a1%88%e5%86%85//" target="_blank" style="color: #0000ff;">第60回定時株主総会のご案内</a></td></tr>
 <tr><td style="white-space: nowrap; vertical-align: top;">2025/06/04　</td><td><a href="https://www.agpgroup.co.jp/ir_news/meeting-request_20250604/" target="_blank" style="color: #0000ff;">JAL代表取締役社長への面談要請について</a></td></tr>
 <tr><td style="white-space: nowrap; vertical-align: top;">2025/05/28　</td><td><a href="https://www.agpgroup.co.jp/ir_news/opposition_request_to_jal_ceo_20250528/" target="_blank" style="color: #0000ff;">JAL代表取締役社長宛へ株主提案に対する反対意見の正式表明および再考要請の通達について</a></td></tr>
 <tr><td style="white-space: nowrap; vertical-align: top;">2025/05/27　</td><td><a href="https://www.agpgroup.co.jp/ir_news/special-committee-summary-report-20250527/" target="_blank" style="color: #0000ff;">日本航空株式会社からの株主提案に対する特別委員会による答申書の要約版のお知らせ</a></td></tr>
@@ -106,50 +110,59 @@
       </div>
     </div>
 </section>
- <!------------------------------------------------------------------------------------------創立60周年 固定バナー -------------------------------------------------------------------------------------------------->
-<div id="anniv-banner" style="
-  position: fixed;
-  top: 150px;
-  right: 20px;
-  z-index: 9999;
-  width: 180px;
-  max-width: 180px;
-  min-width: 160px;
-  font-size: 0.85em;
-  text-align: center;
-">
 
-  <a href="https://www.agpgroup.co.jp/wp-content/uploads/2025/05/AGP_60th_History_and_Beyond.pdf"
-     target="_blank"
-     style="text-decoration: none; color: black;">
-    <div style="padding-left: 10px; text-align: left;">
-      <div style="font-weight: bold;">【創立60周年】</div>
-      <div style="font-weight: bold;">－歩みとこれから－</div>
-      <div>↓をクリック</div>
-    </div>
-    <img src="https://www.agpgroup.co.jp/wp-content/uploads/2025/04/d589f6ad5117b7cd51915692abab7eba.jpg"
-         alt="創立60周年"
-         style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 6px; margin-top: 8px;">
-  </a>
+<!-- バナー表示エリア ---------------------------------------------------------------------------->
+<div id="banner-container">
+  <!-- 創立60周年バナー -->
+  <div id="anniv-banner" class="responsive-banner">
+    <a href="https://www.agpgroup.co.jp/wp-content/uploads/2025/05/AGP_60th_History_and_Beyond.pdf" target="_blank" style="text-decoration: none; color: black;">
+      <div style="padding-left: 0px; text-align: left;">
+        <div style="font-weight: bold; margin: 2px 0;">【創立60周年】</div>
+        <div style="font-weight: bold; margin: 0 0 2px 0; line-height: 1.2;">歩みとこれから</div>
+      </div>
+      <img src="https://www.agpgroup.co.jp/wp-content/uploads/2025/04/d589f6ad5117b7cd51915692abab7eba.jpg" alt="創立60周年" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 6px; margin-top: 0px;">
+    </a>
+  </div>
+
+  <!-- 招集通知バナー -->
+  <div id="notice-banner" class="responsive-banner">
+    <a href="https://www.agpgroup.co.jp/wp-content/uploads/2025/06/Notice_of_Convocation_20250605.pdf" target="_blank" style="text-decoration: none; color: black;">
+      <div style="padding-left: 0px; text-align: left;">
+        <div style="font-weight: bold; margin: 2px 0;">【株主総会資料】</div>
+        <div style="font-weight: bold; margin: 0 0 2px 0; line-height: 1.2;">招集ご通知</div>
+      </div>
+      <img src="https://www.agpgroup.co.jp/wp-content/uploads/2025/06/notice_banner_final_bordered.jpg" alt="招集通知" style="width: 100%; height: auto; border: 1px solid #ccc; border-radius: 6px; margin-top: 0px;">
+    </a>
+  </div>
 </div>
 
 <script>
   function toggleBannerPosition() {
-    const banner = document.getElementById('anniv-banner');
+    const annivBanner = document.getElementById('anniv-banner');
+    const noticeBanner = document.getElementById('notice-banner');
+    const container = document.getElementById('banner-container');
     const isNarrow = window.innerWidth < 1100;
 
     if (isNarrow) {
-      banner.style.position = 'static';
-      banner.style.margin = '40px auto 0 auto';
-      banner.style.top = '';
-      banner.style.right = '';
-      banner.style.width = '90%';
+      // スマホ：下部表示（ページ最後に追加）
+      container.style.position = 'static';
+      container.style.display = 'block';
+      container.style.margin = '50px auto 0 auto';
+      container.style.textAlign = 'center';
+      annivBanner.style.position = 'static';
+      annivBanner.style.margin = '0 auto 20px auto';
+      noticeBanner.style.position = 'static';
+      noticeBanner.style.margin = '0 auto';
     } else {
-      banner.style.position = 'fixed';
-      banner.style.top = '150px';
-      banner.style.right = '40px';
-      banner.style.margin = '0';
-      banner.style.width = '220px';
+      // PC：右上固定
+      container.style.position = 'fixed';
+      container.style.top = '100px';
+      container.style.right = '40px';
+      container.style.width = '150px';
+      container.style.zIndex = '9999';
+      container.style.textAlign = 'center';
+      annivBanner.style.margin = '0 0 20px 0';
+      noticeBanner.style.margin = '0';
     }
   }
 
